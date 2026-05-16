@@ -1,0 +1,16 @@
+com\proyecto\gestion\SistemasGestionTecnica.class
+com\proyecto\gestion\config\ContenidoBD.class
+com\proyecto\gestion\enums\ROL.class
+com\proyecto\gestion\model\Usuario.class
+com\proyecto\gestion\observer\SujetoNotificaciones.class
+com\proyecto\gestion\observer\NotificacionPush.class
+com\proyecto\gestion\model\GestorProyecto.class
+com\proyecto\gestion\observer\NotificacionEmail.class
+com\proyecto\gestion\model\Proyecto.class
+com\proyecto\gestion\model\Tarea.class
+com\proyecto\gestion\observer\NotificacionContellarServicio.class
+com\proyecto\gestion\model\Administrador.class
+com\proyecto\gestion\observer\NotificacionsSantellarSenteala.class
+com\proyecto\gestion\model\Tecnico.class
+com\proyecto\gestion\observer\Observador.class
+com\proyecto\gestion\enums\EstadoTarea.class
