@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk - Listado de Tickets</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Gestión de Incidentes (Help Desk)</h1>
+        <p>Control de Monitoreo de Casos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio (Dashboard)</a></li>
+            <li><a href="reportar.html">Reportar Incidente</a></li>
+            <li><a href="tickets.html"><strong>Listado de Tickets</strong></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Incidentes Registrados en el Data Center</h2>
+            <p>Lista generalizada de fallos detectados y su respectivo estado de resolución.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Título del Incidente</th>
+                        <th>Categoría</th>
+                        <th>Prioridad</th>
+                        <th>Técnico Asignado</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Fallo en el Switch Principal Cisco</td>
+                        <td>Red</td>
+                        <td>Alta</td>
+                        <td>Juan Técnico</td>
+                        <td><strong>EN PROCESO</strong></td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Calentamiento en Rack B3</td>
+                        <td>Hardware</td>
+                        <td>Media</td>
+                        <td>Por Asignar</td>
+                        <td><strong>PENDIENTE</strong></td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Actualización de Parche del Kernel S.O</td>
+                        <td>Software</td>
+                        <td>Baja</td>
+                        <td>Carlos Gestor</td>
+                        <td><strong>FINALIZADA</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universidad Técnica de Manabí - Tecnologías de la Información</p>
+    </footer>
+
+</body>
+</html>
