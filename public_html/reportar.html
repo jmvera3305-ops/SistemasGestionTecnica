@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk - Reportar Incidente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header class="site-header">
+        <div class="header-logo">
+            <img src="Imagen/images1.jpg" alt="Logo UTM Help Desk">
+        </div>
+        <div class="header-text">
+            <h1>Sistema de Gestión de Incidentes</h1>
+            <p>Infraestructura y Soporte de Data Center</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">IniciO</a></li>
+            <li><a href="reportar.html"><strong>Reportar Incidente</strong></a></li>
+            <li><a href="tickets.html">Listado de Tickets</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section style="max-width: 600px; margin: 0 auto;">
+            <h2>Ingresar Nuevo Ticket de Soporte</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">Por favor complete el siguiente formulario de manera detallada para asignar el técnico adecuado.</p>
+
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label class="form-label" for="titulo">Título del Incidente:</label>
+                    <input type="text" id="titulo" name="titulo" class="form-input" required placeholder="Ej. Caída de Servidor Web">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="categoria">Categoría del Fallo:</label>
+                    <select id="categoria" name="categoria" class="form-select" required>
+                        <option value="">-- Seleccione una opción --</option>
+                        <option value="red">Red</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="software">Software</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Nivel de Prioridad:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" id="prioridad-alta" name="prioridad" value="alta" required> Alta</label>
+                        <label><input type="radio" id="prioridad-media" name="prioridad" value="media"> Media</label>
+                        <label><input type="radio" id="prioridad-baja" name="prioridad" value="baja"> Baja</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="descripcion">Descripción Detallada:</label>
+                    <textarea id="descripcion" name="descripcion" class="form-textarea" rows="5" placeholder="Escriba los síntomas del error y componentes afectados..." required></textarea>
+                </div>
+
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button type="submit" class="btn btn-primary">Registrar Incidente</button>
+                    <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universidad Técnica de Manabí - Tecnologías de la Información</p>
+    </footer>
+
+</body>
+</html>

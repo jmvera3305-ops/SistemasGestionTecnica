@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk - Listado de Tickets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-logo">
+            <img src="Imagen/images1.jpg" alt="Logo UTM Help Desk">
+        </div>
+        <div class="header-text">
+            <h1>Sistema de Gestión de Incidentes</h1>
+            <p>Infraestructura y Soporte de Data Center</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reportar.html">Reportar Incidente</a></li>
+            <li><a href="tickets.html"><strong>Listado de Tickets</strong></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Incidentes Registrados en el Data Center</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">Lista generalizada de fallos detectados y su respectivo estado de resolución.</p>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Título del Incidente</th>
+                            <th>Categoría</th>
+                            <th>Prioridad</th>
+                            <th>Técnico Asignado</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Fallo en el Switch Principal Cisco</td>
+                            <td>Red</td>
+                            <td><span class="badge badge-alta">Alta</span></td>
+                            <td>Juan Técnico</td>
+                            <td><strong style="color: var(--color-warning);">EN PROCESO</strong></td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Calentamiento en Rack B3</td>
+                            <td>Hardware</td>
+                            <td><span class="badge badge-media">Media</span></td>
+                            <td>Por Asignar</td>
+                            <td><strong style="color: var(--color-danger);">PENDIENTE</strong></td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Actualización de Parche del Kernel S.O</td>
+                            <td>Software</td>
+                            <td><span class="badge badge-baja">Baja</span></td>
+                            <td>Carlos Gestor</td>
+                            <td><strong style="color: var(--color-success);">FINALIZADA</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universidad Técnica de Manabí - Tecnologías de la Información</p>
+    </footer>
+
+</body>
+</html>
