@@ -1,0 +1,16 @@
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\config\ContenidoBD.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\enums\EstadoTarea.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\enums\ROL.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\Administrador.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\GestorProyecto.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\Proyecto.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\Tarea.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\Tecnico.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\model\Usuario.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\NotificacionContellarServicio.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\NotificacionEmail.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\NotificacionPush.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\NotificacionsSantellarSenteala.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\Observador.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\observer\SujetoNotificaciones.java
+C:\Users\Jose Vera\Documents\NetBeansProjects\SistemasGestionTecnica\src\main\java\com\proyecto\gestion\SistemasGestionTecnica.java
